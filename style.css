@@ -219,6 +219,40 @@ nav {
 
 
 
+/* Ready to focus section */
+
+.ready-to-focus-section{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: #FFFFFF;
+  max-width: 1140px;
+  height: 697px;
+  margin: 116px auto;
+  border-radius: 10px;
+}
+
+.ready-to-focus-header{
+  font-size: 50px;
+  font-family: "Raleway", sans-serif;
+}
+
+
+.text{
+  font-size: 16px;
+  font-weight: 200;
+  color: #8987A1;
+  padding: 4px;
+}
+
+.ready-focus-image{
+  border-radius: 40px;
+}
+
+
+
 /* Get in Touch section */
 
 .get-in-touch-section{
@@ -291,13 +325,6 @@ footer{
   font-size: 100px;
   font-weight: 900;
   color: #4E47FF;
-}
-
-.footer-text{
-  font-size: 16px;
-  font-weight: 200;
-  color: #8987A1;
-  padding: 4px;
 }
 
 .footer-nav{
