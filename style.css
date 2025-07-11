@@ -263,3 +263,57 @@ nav {
 .touch-btn-size{
     height: 62px;
 }
+
+
+
+/* footer section */
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #FFFFFF;
+  height: 428px;
+}
+
+
+.footer-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 532px;
+  margin: 116px auto;
+  text-align: center;
+}
+
+.footer-logo{
+  font-size: 100px;
+  font-weight: 900;
+  color: #4E47FF;
+}
+
+.footer-text{
+  font-size: 16px;
+  font-weight: 200;
+  color: #8987A1;
+  padding: 4px;
+}
+
+.footer-nav{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 48px;
+}
+
+.footer-nav li{
+  list-style: none;
+
+}
+
+.footer-nav li a{
+  text-decoration: none;
+  color: #8987A1;
+}
