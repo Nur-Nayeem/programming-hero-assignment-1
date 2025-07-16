@@ -67,6 +67,12 @@ nav {
     margin-bottom: 37px;
 }
 
+@media screen and (max-width:575.98px){
+  .hero-content{
+    font-size: 46px;
+  }
+}
+
 
 /* action section */
 
@@ -100,6 +106,19 @@ nav {
 
 .action-img{
   border-radius: 50px;
+}
+
+@media screen and (max-width:575.98px){
+  .action-section{
+    flex-direction: column;
+    gap: 10px;
+  }
+  .action-content{
+    text-align: center;
+  }
+  .action-img{
+    width: 100%;
+  }
 }
 
 
@@ -149,6 +168,15 @@ nav {
   font-size: 20px;
   font-weight: 400;
   opacity: 0.5;
+}
+
+@media screen and (max-width:575.98px) {
+  .activity-details{
+    flex-direction: column;
+  }
+  .activity-header{
+    text-align: center;
+  }
 }
 
 
@@ -220,6 +248,15 @@ nav {
   color: #B3B3B3;
 }
 
+@media screen and (max-width: 575.98px) {
+  .all-cards{
+    flex-direction: column;
+  } 
+  .content-header {
+    text-align: center;
+  }
+}
+
 
 /* Ready to focus section */
 
@@ -253,6 +290,16 @@ nav {
   border-radius: 40px;
 }
 
+@media screen and (max-width:575.98px) {
+  .ready-to-focus-section{
+    text-align: center;
+  }
+
+  .ready-focus-image{
+    width: 100%;
+  }
+}
+
 
 
 
@@ -278,7 +325,7 @@ nav {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  max-width: 497px;
+  max-width: 40%;
 }
 .input-conainer{
   display: flex;
@@ -302,6 +349,18 @@ nav {
     height: 62px;
 }
 
+@media screen and (max-width:575.98px) {
+  .get-in-touch-section {
+    flex-direction: column;
+  }
+  #get-in-touch-header{
+    text-align: center;
+  }
+  .form-content{
+    max-width: 100%;
+  }
+}
+
 
 
 /* footer section */
@@ -320,7 +379,7 @@ footer{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  max-width: 532px;
+  max-width: 50%;
   margin: 116px auto;
   text-align: center;
 }
@@ -347,4 +406,13 @@ footer{
 .footer-nav li a{
   text-decoration: none;
   color: #8987A1;
+}
+
+@media screen and (max-width:575.98px) {
+  .footer-logo{
+    font-size: 50px;
+  }
+  .footer-nav li a{
+    font-size: 12px;
+}
 }
